@@ -400,13 +400,13 @@ if [ $? != 0 -o -z "$(ls bin)" ]; then
   abort "Busybox setup failed. Aborting...";
 fi;
 
-ui_print "      ===========================";
-ui_print "      | RRRRRR     MMM       MMM   | ";
-ui_print "      | RR  RR     MM M     M MM   | ";
-ui_print "      | RRRRRR     MM  M   M  MM   | ";
-ui_print "      | RR   RR    MM   M M   MM   | ";
-ui_print "      | RR    RR @ MM    M    MM   | ";
-ui_print "      ===========================";
+ui_print "      ============================";
+ui_print "      | RRRRRR      MMM       MMM | ";
+ui_print "      | RR   RR     MM M     M MM | ";
+ui_print "      | RRRRRRR     MM  M   M  MM | ";
+ui_print "      | RR    RR    MM   M M   MM | ";
+ui_print "      | RR     RR @ MM    M    MM | ";
+ui_print "      ============================";
 ui_print "            by @ ♔ E B I N ♔";
 ui_print "                                       ";
 ui_print "       -AnyKernel3 by osm0sis ";
